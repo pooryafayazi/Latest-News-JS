@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ex08-JS</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <main class="container">
+        <h1>🗞️ آخرین اخبار </h1>
+
+        <div class="controls">
+            <select id="mode">
+                <option value="everything">Everything (query)</option>
+                <option value="top">Top Headlines (country)</option>
+            </select>
+            <select id="country">
+                <option value="us">US</option>
+                <option value="gb">UK</option>
+                <option value="de">Germany</option>
+                <option value="fr">France</option>
+            </select>
+            <input id="q" type="search" placeholder="جستجو (برای everything)" />
+            <button id="btn">Get News</button>
+        </div>
+
+        <div id="status" class="status"></div>
+        <section id="results" class="grid"></section>
+    </main>
+
+    <script src="./ex08-JS.js"></script>
+
+</body>
+
+</html>
